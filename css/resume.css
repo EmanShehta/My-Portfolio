@@ -113,4 +113,37 @@ a {
   color: #023B6D; }
   a:hover, a:focus, a:active {
     color: #824027; }
+  
+
+    #main-header {
+      background-color: #333; /* Example background color */
+      color: #fff; /* Example text color */
+      padding: 10px 20px;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1000; /* Ensure the header stays above other content */
+    }
     
+    .header-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .hire-me-btn {
+      text-decoration: none;
+      color: #023B6D;
+      background-color: #007bff; /* Example button color */
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+    
+    .hire-me-btn:hover {
+      background-color: #0056b3; /* Example hover color */
+    }
+    
+    .hire-me-btn {
+      margin-right: 20px; /* Adjust spacing from the right edge of the header */
+    }
